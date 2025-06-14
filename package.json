@@ -1,7 +1,7 @@
 {
-  "name": "webapp-nnat",
+  "name": "webapp-nnat-integral",
   "version": "0.1.0",
-  "homeapge": "https://Mixcoatl666.github.io/webapp-nnat-integral",
+  "homepage": "https://Mixcoatl666.github.io/webapp-nnat-integral",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
