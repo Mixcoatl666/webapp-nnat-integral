@@ -1,0 +1,31 @@
+.profile-card {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.profile-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.profile-details p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
