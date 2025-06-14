@@ -4,13 +4,19 @@ function App() {
     return (
         <>
         <NavBar />
-        <div className="container mt-4">
-            <div className="p-5 mb-4 bg-primary rounded-3">
-                <div className="container-fluid py-5">
-                    <h1 className="display-5 fw-bold">Bienvenido a mi página web</h1>
-                    <p className="col-md-8 fs-4">
-                        Esta simple Aplicación fue creada con React
-                    </p>
+        <div className="container mt-5">
+            <div className="row justify-content-center">
+                <div className="col-md-8 text-center">
+                    <h1 className="display-4 fw-light mb-4">Noah Noel Arredondo Torres</h1>
+                    <div className="p-4 bg-light bg-opacity-75 rounded-3 shadow-sm">
+                        <p className="lead text-muted">
+                            Desarrollador Web & Estudiante de Ingeniería
+                        </p>
+                        <hr className="my-4" />
+                        <p className="text-secondary">
+                            Explorando el mundo del desarrollo web con React
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
